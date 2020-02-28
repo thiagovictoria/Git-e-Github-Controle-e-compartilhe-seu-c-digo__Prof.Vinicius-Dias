@@ -1,0 +1,64 @@
+thif_@DESKTOP-3PAJT6U MINGW64 ~
+$ cd g
+bash: cd: g: No such file or directory
+
+thif_@DESKTOP-3PAJT6U MINGW64 ~
+$ cd g:
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g
+$ cd FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/"AULAS DIGITAIS_(Alura)"
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)
+$ cd "Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias"
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias
+$ ls
+index.html
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias
+$ git init
+Initialized empty Git repository in G:/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias/.git/
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias (master)
+$ git add .
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias (master)
+$ git commit -m "Criando arquivo index.html com lista de cursos"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'thif_@DESKTOP-3PAJT6U.(none)')
+
+thif_@DESKTOP-3PAJT6U MINGW64 /g/FACULDADE_CURSOS_LIVROS/CURSOS/TECNOLOGIA/CAELUM/AULAS DIGITAIS_(Alura)/Git e Github Controle e compartilhe seu código__Prof.Vinicius Dias (master)
+$
